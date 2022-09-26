@@ -32,6 +32,3 @@ main.container{
     text-align:center ;
 }
 /* attribute selector */
-[data-custom-data="I am a"]{
-    
-}
