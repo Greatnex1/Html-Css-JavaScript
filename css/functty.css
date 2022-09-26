@@ -1,0 +1,24 @@
+img{
+     /* filter:blur(10px);  */
+    font-size: large;
+    height: 300px;
+
+
+}
+
+.container{
+    display: grid;
+    justify-content:space-between;
+    width: 80%;
+    gap: 5%;
+    
+}
+
+
+
+.user{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

@@ -1,0 +1,25 @@
+body{
+    background-color: black;
+}
+img{
+    width: 150px;
+    border-radius: 75px;
+    float:left;
+    margin-right: 10px;
+}
+.user{
+      color: white;
+     font-weight: bold;
+    float:right 20px;
+}
+
+#alive{
+    
+    float:right;
+    margin-left: 500rem;
+    padding-left:50px;
+}
+
+p1{
+    color:white;
+}

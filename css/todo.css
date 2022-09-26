@@ -1,0 +1,37 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #f1faef;
+    --seconday-color:#457b9d;
+    --primary-font-size: 16px;
+}
+
+body{
+    font-size : var(--primary-font-size);
+    background-color: var(--seconday-color);
+}
+main.container{
+    width: 80%;
+    margin: 20px auto;
+    background-color: var(--primary-color);
+    height: calc(100vh - 40px);
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+.fa-trash{
+    cursor:pointer;
+
+}
+.space{
+    justify-content: space-around;
+    text-align:center ;
+}
+/* attribute selector */
+[data-custom-data="I am a"]{
+    
+}

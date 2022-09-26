@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> A Pop Up Form Page</title>
+    <link rel="stylesheet" href="./../css/popupform.css">
+    <script src="./../javascript/popupform.js"></script>
+</head>
+<body>
+<button class="open-button"onclick="openForm()">Open</button>
+    <div class="form-popup" id="myForm"> 
+    <form action="" class="form-container">
+        <header>
+            <h1 class="login">Login</h1>
+        </header>
+   
+        <hr>
+        <label for="email"><b>Email</b></label>
+        <input type="text"  placeholder="Enter Email" name="email" required>
+
+        <label for="psw"><b>Password</b> </label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+        
+        <label for="phoneumr"><b>Phone Number</b></label>
+        <input type="number" placeholder="Enter PhoneNumber" name="phoneumr"required>
+
+        <button type="submit" class="btn">Login</button>
+        <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+    
+    </form>
+</div>
+        
+    </body>
+    
+</html>

@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background:#f4f4f4;
+    padding: 1rem;
+    text-align: center;
+    
+}
+body{
+    line-height: 1.6;
+}
+
+.container{
+    display: inline-block;
+    text-align: center;
+    background-color: gray;
+    cursor: pointer;
+
+}
+.btn{
+    background: #000;
+    width: 50%;
+}
+.btn:hover{
+    background:green;
+    cursor: default;
+}
